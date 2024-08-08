@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
-@import './components/index.css';
 @import './tailwind/index.css';
 
 html,
@@ -9,6 +8,6 @@ div#__next,
 div#__next > div {
     height: 100%;
     font-size:13px;
-    @apply bg-gray-200
+    @apply bg-white;
 }
 

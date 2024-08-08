@@ -6,7 +6,7 @@ import { useEffect } from "react";
 const Home: NextPageWithLayout = () => {
   const { push } = useRouter();
   useEffect(() => {
-    push("/inspections");
+    push("/task");
   }, []);
   return null;
 };

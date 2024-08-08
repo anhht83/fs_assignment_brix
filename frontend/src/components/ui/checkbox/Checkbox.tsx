@@ -93,7 +93,7 @@ const Checkbox = React.forwardRef((props: any, ref) => {
   const checkboxColor =
     color || colorContext || `blue-500`;
 
-  const checkboxDefaultClass = `checkbox border-gray-300 rounded shadow text-${checkboxColor}`;
+  const checkboxDefaultClass = `checkbox border-gray-300 rounded shadow text-${checkboxColor} h-[20px] w-[20px]`;
   const checkboxColorClass = disabled && "disabled";
   const labelDefaultClass = `checkbox-label`;
   const labelDisabledClass = disabled && "disabled";

@@ -5,12 +5,10 @@ import compress from "compression";
 import methodOverride from "method-override";
 import cors from "cors";
 import helmet from "helmet";
-import passport from "passport";
 import routes from "../routes";
-import strategies from "./passport";
 import error from "../middlewares/error.middleware";
 
-const vars = require("./vars.js");
+import vars  from "./vars";
 /**
  * Express instance
  * @public
@@ -44,11 +42,6 @@ app.use(helmet());
 // Function to serve all static files
 // inside public directory.
 app.use("", express.static(`${__dirname}/../public`));
-// app.use('/public/images', express.static(`${__dirname}/../public/images`));
-
-// enable authentication
-app.use(passport.initialize());
-passport.use("jwt", strategies.jwt);
 
 // mount api routes
 app.use("/", routes);

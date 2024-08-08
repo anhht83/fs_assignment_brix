@@ -1,12 +1,10 @@
 import express from "express";
-import authRoutes from "./auth.route";
-import inspectionRoutes from "./inspection.route";
-import basicRoutes from "./basic.route";
+import sampleRoutes from "./sample.route";
+import taskRoutes from "./task.route";
 
 const router = express.Router();
 
-router.use("/auth", authRoutes);
-router.use("/inspections", inspectionRoutes);
-router.use("/basics", basicRoutes);
+router.use("/samples", sampleRoutes);
+router.use("/tasks", taskRoutes);
 
 export default router;

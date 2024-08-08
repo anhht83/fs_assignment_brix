@@ -1,6 +1,6 @@
+import vars  from "./vars";
 
-const vars = require("./vars");
-module.exports = {
+export default {
   development: {
     username: vars.database.user,
     password: vars.database.password,
@@ -27,5 +27,4 @@ module.exports = {
     port: vars.database.port,
     dialect: vars.database.client
   }
-
 };

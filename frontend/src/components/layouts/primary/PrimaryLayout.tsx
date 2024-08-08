@@ -7,8 +7,8 @@ export interface IPrimaryLayout {
 }
 
 const PrimaryLayout: React.FC<IPrimaryLayout> = ({ children }) => (
-  <div className="bg-gray-100 min-h-full">
-    <div className="mx-auto max-w-7xl p-6">
+  <div className="bg-gray-100 min-h-full ">
+    <div className="mx-auto max-w-2xl p-6">
       {children}
     </div>
     <ToastContainer />

@@ -12,7 +12,7 @@ Below mentioned are the steps to install, configure & run in your platform/distr
 ### Install
 ```bash
 # Run command to clone the repo.
-git clone https://github.com/anhht83/fs_assignment.git
+git clone https://github.com/anhht83/fs_assignment_brix.git
 
 # Goto the cloned project folder, run command
 cd <root dir of project>

@@ -4,10 +4,9 @@ import * as http from "http";
 import logger from "./config/logger";
 import app from "./config/express";
 
-const vars = require("./config/vars");
+import vars from "./config/vars";
 
 const server = http.createServer(app);
-export const io = require("./config/socket")(server);
 
 server.listen(vars.port, () => logger.info(`server started on port ${vars.port} (${vars.env})`));
 

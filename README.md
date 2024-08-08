@@ -70,7 +70,7 @@ Pls check `frontend/README.md` for detail
 Pls check `backend/README.md` for detail
 
 # Database Models
-![Database models](./misc/db.png)
+![Database models] Tasks model
 
 # Connect
 **Anh Tuan Hoang** <anhht83@gmail.com>  https://github.com/anhht83

@@ -1,3 +1,6 @@
+![App screen](./misc/app_screen.png)
+
+
 # Fullstack assignment
 
 Express, Sequelize, NextJs, ReactJs, Tailwindcss, TypeScript
@@ -12,7 +15,7 @@ Below mentioned are the steps to install, configure & run in your platform/distr
 ### Install
 ```bash
 # Run command to clone the repo.
-git clone https://github.com/anhht83/fs_assignment_brix.git
+git clone https://github.com/anhht83/fs_assignment.git
 
 # Goto the cloned project folder, run command
 cd <root dir of project>
@@ -70,7 +73,7 @@ Pls check `frontend/README.md` for detail
 Pls check `backend/README.md` for detail
 
 # Database Models
-![Database models] Tasks model
+![Database models] Tasks
 
 # Connect
 **Anh Tuan Hoang** <anhht83@gmail.com>  https://github.com/anhht83
